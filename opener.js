@@ -1,4 +1,6 @@
-# Cyberpunk-opener
+// Cyberpunk-opener by MadMonkey
+
+
 $(function () {
     let resultMap = {};
     let isOpening = false;
