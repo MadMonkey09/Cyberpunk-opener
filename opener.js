@@ -5,9 +5,9 @@ $(function () {
     let resultMap = {};
     let isOpening = false;
     
-   
-    const headerFont = `'Orbitron', sans-serif`; // Sci-fi futuristic
-    const dataFont = `'Share Tech Mono', monospace`; // Terminal / Hacker style
+        //style   
+    const headerFont = `'Orbitron', sans-serif`; 
+    const dataFont = `'Share Tech Mono', monospace`; 
 
     // UI
     $('head').append(`
@@ -188,7 +188,7 @@ $(function () {
 
     const trigger = $(`
         <button id="openBtn" class="holo-btn" style="position:fixed; bottom:25px; right:25px; z-index:1000; border: 2px solid #39ff14;">
-            CORE_INTERFACE
+            OPEN
         </button>
     `);
 
